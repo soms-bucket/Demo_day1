@@ -148,7 +148,7 @@ public class CartController {
 	
 	
 	// http://localhost:9196/api/pushdemo
-	@GetMapping("/pushdemo")
+	@GetMapping("/pushdemodata")
 	public void pushDemoData() {
 
 		Cart cart = new Cart();

@@ -1,0 +1,28 @@
+com.example.demo.OrderApplication-[INFO]- 2024-06-25 11:24:56,227-Starting OrderApplication using Java 17.0.11 with PID 996 (C:\Users\DELL\WorkSpace\Microservice\01_Microservice_Order\target\classes started by DELL in C:\Users\DELL\WorkSpace\Microservice\01_Microservice_Order)-
+com.example.demo.OrderApplication-[INFO]- 2024-06-25 11:24:56,250-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-06-25 11:24:56,400-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-06-25 11:24:56,402-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-25 11:24:58,028-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-06-25 11:24:58,115-Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-25 11:24:58,833-Tomcat initialized with port 9193 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-06-25 11:24:58,851-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-06-25 11:24:58,852-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-25 11:24:58,968-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-06-25 11:24:58,970-Root WebApplicationContext: initialization completed in 2566 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-06-25 11:24:59,205-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-06-25 11:24:59,299-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-06-25 11:24:59,362-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-06-25 11:24:59,800-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-25 11:24:59,849-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-06-25 11:25:00,267-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2537650b-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-06-25 11:25:00,270-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-06-25 11:25:01,669-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-06-25 11:25:01,881-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-06-25 11:25:02,351-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-06-25 11:25:03,710-LiveReload server is running on port 35729-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-06-25 11:25:03,768-Tomcat started on port 9193 (http) with context path '/'-
+com.example.demo.OrderApplication-[INFO]- 2024-06-25 11:25:03,789-Started OrderApplication in 8.137 seconds (process running for 9.351)-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-06-25 11:27:58,477-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-06-25 11:27:58,478-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-06-25 11:27:58,480-Completed initialization in 2 ms-
+org.springdoc.api.AbstractOpenApiResource-[INFO]- 2024-06-25 11:27:59,870-Init duration for springdoc-openapi is: 392 ms-

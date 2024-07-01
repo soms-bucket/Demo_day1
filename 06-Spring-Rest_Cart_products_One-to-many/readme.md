@@ -1,15 +1,15 @@
 ### Total price of cart
-http://localhost:9196/api/carts/checkout/1
+<pre>http://localhost:9196/api/carts/checkout/1</pre>
 
 ### greater than 1000
-cart-level <br>
-http://localhost:9196/api/carts/price/1 <br>
+cart-level
+<pre>http://localhost:9196/api/carts/price/1</pre>
 pro-level <br>
-http://localhost:9196/api/carts/price <br>
+<pre>http://localhost:9196/api/carts/price</pre>
 
 ### Starts with "A"
-cart-level  <br>
-http://localhost:9196/api/carts/pro/3  <br>
-pro-level  <br>
-http://localhost:9196/api/carts/pro?prefix=A
+cart-level
+<pre>http://localhost:9196/api/carts/pro/3</pre>
+pro-level
+<pre>http://localhost:9196/api/carts/pro?prefix=A</pre>
 

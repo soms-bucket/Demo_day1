@@ -11,7 +11,7 @@ import feign.Headers;
 
 @Headers("Content-Type: application/json")
 
-@FeignClient(name = "patience-service", url = "${PRODUCT_SERVICE:http://localhost:9193}")
+@FeignClient(name = "patient-service", url = "${PRODUCT_SERVICE:http://localhost:9193}")
 
 public interface PatientFeignClient {
 

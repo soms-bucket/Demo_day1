@@ -1,0 +1,420 @@
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 11:11:14,534-Starting DemoApplication using Java 17.0.11 with PID 12188 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 11:11:14,598-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-03 11:11:14,796-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-03 11:11:14,797-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 11:11:16,832-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 11:11:16,960-Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 11:11:17,422-BeanFactory id=b01f3792-151b-3a98-a890-9ce9995d915a-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 11:11:18,370-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 11:11:18,394-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 11:11:18,395-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 11:11:18,525-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 11:11:18,525-Root WebApplicationContext: initialization completed in 3727 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 11:11:18,906-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-07-03 11:11:19,035-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 11:11:19,118-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 11:11:19,662-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 11:11:19,725-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 11:11:20,315-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3288c6c7-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 11:11:20,320-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 11:11:22,559-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 11:11:22,739-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 11:11:23,653-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[WARN]- 2024-07-03 11:11:23,723-Unable to start LiveReload server-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 11:11:27,262-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 11:11:27,582-Started DemoApplication in 14.25 seconds (process running for 16.206)-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 11:12:01,813-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 11:12:01,815-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 11:12:01,816-Completed initialization in 1 ms-
+org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-[INFO]- 2024-07-03 11:12:53,269-Application shutdown requested.-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 11:12:53,308-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 11:12:53,314-HikariPool-1 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 11:12:53,331-HikariPool-1 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 12:52:41,756-Starting DemoApplication using Java 17.0.11 with PID 7972 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 12:52:41,761-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-03 12:52:41,912-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-03 12:52:41,913-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 12:52:43,259-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 12:52:43,347-Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 12:52:43,693-BeanFactory id=50129331-af2f-3a15-a7fc-203829e88f97-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 12:52:44,629-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 12:52:44,648-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 12:52:44,648-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 12:52:44,745-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 12:52:44,745-Root WebApplicationContext: initialization completed in 2831 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 12:52:45,105-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-07-03 12:52:45,213-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 12:52:45,277-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 12:52:46,061-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 12:52:46,103-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 12:52:46,521-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5994946f-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 12:52:46,526-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 12:52:48,250-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 12:52:48,767-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext-[WARN]- 2024-07-03 12:52:48,789-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig' defined in file [C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes\com\example\demo\authentication\SecurityConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.security.core.userdetails.UserDetailsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 12:52:48,789-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 12:52:48,797-HikariPool-1 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 12:52:48,811-HikariPool-1 - Shutdown completed.-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 12:52:48,815-Stopping service [Tomcat]-
+org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger-[INFO]- 2024-07-03 12:52:48,839-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.-
+org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter-[ERROR]- 2024-07-03 12:52:57,577-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo.authentication.SecurityConfig required a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' in your configuration.
+-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:05:53,344-Starting DemoApplication using Java 17.0.11 with PID 11588 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:05:53,349-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-03 13:05:53,487-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-03 13:05:53,488-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:05:54,741-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:05:54,819-Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 13:05:55,113-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:05:55,810-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 13:05:55,826-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 13:05:55,826-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 13:05:55,921-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 13:05:55,922-Root WebApplicationContext: initialization completed in 2434 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 13:05:56,163-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-07-03 13:05:56,265-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 13:05:56,323-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 13:05:56,714-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:05:56,758-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 13:05:57,119-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27ae1a5e-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:05:57,124-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 13:05:58,594-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:05:58,677-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 13:05:59,107-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 13:05:59,374-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 13:05:59,452-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 13:06:00,758-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d5dd3da, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@638ad63b, org.springframework.security.web.context.SecurityContextHolderFilter@4669fd59, org.springframework.security.web.header.HeaderWriterFilter@11a6d82e, org.springframework.web.filter.CorsFilter@5943f24c, org.springframework.security.web.authentication.logout.LogoutFilter@4e5775d7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@12919b19, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6592720f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54439071, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74a94ea1, org.springframework.security.web.access.ExceptionTranslationFilter@6ba4453e, org.springframework.security.web.access.intercept.AuthorizationFilter@63343c92]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:06:01,552-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:06:01,757-Started DemoApplication in 9.192 seconds (process running for 10.406)-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 13:11:35,966-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 13:11:35,966-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 13:11:35,970-Completed initialization in 3 ms-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-07-03 13:12:26,094-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:12:26,137-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:12:26,142-HikariPool-1 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:12:26,162-HikariPool-1 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:12:26,560-Starting DemoApplication using Java 17.0.11 with PID 11588 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:12:26,561-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:12:27,029-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:12:27,046-Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 13:12:27,150-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:12:27,289-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 13:12:27,290-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 13:12:27,290-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 13:12:27,326-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 13:12:27,326-Root WebApplicationContext: initialization completed in 762 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 13:12:27,401-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 13:12:27,407-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 13:12:27,423-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:12:27,425-HikariPool-2 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 13:12:27,443-HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f512e85-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:12:27,443-HikariPool-2 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 13:12:27,556-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:12:27,584-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 13:12:27,710-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 13:12:27,852-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 13:12:27,912-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 13:12:28,751-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3be0fdb3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28d3bb7b, org.springframework.security.web.context.SecurityContextHolderFilter@592ec736, org.springframework.security.web.header.HeaderWriterFilter@e27c95f, org.springframework.web.filter.CorsFilter@957a037, org.springframework.security.web.authentication.logout.LogoutFilter@2744e2d1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3bb2d27e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fb12baf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3821d8f5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@245ba241, org.springframework.security.web.access.ExceptionTranslationFilter@34e8521, org.springframework.security.web.access.intercept.AuthorizationFilter@573ec37d]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:12:29,154-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:12:29,373-Started DemoApplication in 3.11 seconds (process running for 398.022)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-07-03 13:12:29,377-Condition evaluation unchanged-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-07-03 13:14:01,800-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:14:01,828-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:14:01,829-HikariPool-2 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:14:01,838-HikariPool-2 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:14:02,171-Starting DemoApplication using Java 17.0.11 with PID 11588 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:14:02,171-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:14:02,468-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:14:02,482-Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 13:14:02,575-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:14:02,709-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 13:14:02,710-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 13:14:02,710-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 13:14:02,756-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 13:14:02,757-Root WebApplicationContext: initialization completed in 583 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 13:14:02,849-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 13:14:02,853-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 13:14:02,866-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:14:02,868-HikariPool-3 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 13:14:02,885-HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@776b8cf5-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:14:02,885-HikariPool-3 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 13:14:02,992-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:14:03,019-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 13:14:03,136-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 13:14:03,261-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 13:14:03,312-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 13:14:04,111-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@62e5d96c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b7f0e0d, org.springframework.security.web.context.SecurityContextHolderFilter@578f368f, org.springframework.security.web.header.HeaderWriterFilter@54f7ec63, org.springframework.web.filter.CorsFilter@3eaa4130, org.springframework.security.web.authentication.logout.LogoutFilter@6195aef0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e4b107b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25ef542b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@247fb6d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48145656, org.springframework.security.web.access.ExceptionTranslationFilter@60ac37b8, org.springframework.security.web.access.intercept.AuthorizationFilter@67145092]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:14:04,505-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:14:04,703-Started DemoApplication in 2.764 seconds (process running for 493.351)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-07-03 13:14:04,706-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 13:14:10,467-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 13:14:10,467-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 13:14:10,469-Completed initialization in 2 ms-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-03 13:14:10,667-Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: class org.springframework.security.core.authority.SimpleGrantedAuthority cannot be cast to class java.util.Collection (org.springframework.security.core.authority.SimpleGrantedAuthority is in unnamed module of loader 'app'; java.util.Collection is in module java.base of loader 'bootstrap')]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-03 13:14:30,581-Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: class org.springframework.security.core.authority.SimpleGrantedAuthority cannot be cast to class java.util.Collection (org.springframework.security.core.authority.SimpleGrantedAuthority is in unnamed module of loader 'app'; java.util.Collection is in module java.base of loader 'bootstrap')]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-03 13:14:50,526-Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: class org.springframework.security.core.authority.SimpleGrantedAuthority cannot be cast to class java.util.Collection (org.springframework.security.core.authority.SimpleGrantedAuthority is in unnamed module of loader 'app'; java.util.Collection is in module java.base of loader 'bootstrap')]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-03 13:15:48,907-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-07-03 13:16:11,152-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:16:11,180-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:11,181-HikariPool-3 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:11,189-HikariPool-3 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:16:11,509-Starting DemoApplication using Java 17.0.11 with PID 11588 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:16:11,509-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:16:11,817-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:16:11,833-Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 13:16:11,917-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:16:12,043-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 13:16:12,044-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 13:16:12,044-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 13:16:12,080-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 13:16:12,081-Root WebApplicationContext: initialization completed in 568 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 13:16:12,174-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 13:16:12,179-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 13:16:12,190-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:12,191-HikariPool-4 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 13:16:12,208-HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a8396e7-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:12,208-HikariPool-4 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 13:16:12,309-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:16:12,338-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 13:16:12,467-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 13:16:12,600-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 13:16:12,651-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 13:16:13,539-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@37070412, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5054289e, org.springframework.security.web.context.SecurityContextHolderFilter@93331eb, org.springframework.security.web.header.HeaderWriterFilter@2346a58b, org.springframework.web.filter.CorsFilter@7d6886b4, org.springframework.security.web.authentication.logout.LogoutFilter@1cf4c4a8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@dec5083, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@157ec549, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1aa48493, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@126fb9d2, org.springframework.security.web.access.ExceptionTranslationFilter@3ba69e73, org.springframework.security.web.access.intercept.AuthorizationFilter@417d8d85]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:16:14,043-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:16:14,266-Started DemoApplication in 3.003 seconds (process running for 622.914)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-07-03 13:16:14,269-Condition evaluation unchanged-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-07-03 13:16:30,758-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:16:30,782-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:30,783-HikariPool-4 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:30,790-HikariPool-4 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:16:31,095-Starting DemoApplication using Java 17.0.11 with PID 11588 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:16:31,096-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:16:31,407-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:16:31,420-Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 13:16:31,508-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:16:31,621-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 13:16:31,622-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 13:16:31,622-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 13:16:31,653-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 13:16:31,653-Root WebApplicationContext: initialization completed in 554 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 13:16:31,742-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 13:16:31,747-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 13:16:31,759-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:31,761-HikariPool-5 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 13:16:31,776-HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@375526e1-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:31,776-HikariPool-5 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 13:16:31,876-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:16:31,904-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 13:16:32,025-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 13:16:32,144-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 13:16:32,189-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 13:16:32,952-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@661ded44, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@376b2b61, org.springframework.security.web.context.SecurityContextHolderFilter@357289c, org.springframework.security.web.header.HeaderWriterFilter@5c6dec55, org.springframework.web.filter.CorsFilter@2735842e, org.springframework.security.web.authentication.logout.LogoutFilter@10217093, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7da3af8b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c7c1dc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19b4f6a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@478ab8b4, org.springframework.security.web.access.ExceptionTranslationFilter@48e1ad9a, org.springframework.security.web.access.intercept.AuthorizationFilter@12b04fc5]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:16:33,335-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:16:33,541-Started DemoApplication in 2.672 seconds (process running for 642.189)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-07-03 13:16:33,543-Condition evaluation unchanged-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-07-03 13:16:55,083-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:16:55,107-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:55,108-HikariPool-5 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:55,115-HikariPool-5 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:16:55,545-Starting DemoApplication using Java 17.0.11 with PID 11588 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:16:55,546-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:16:55,842-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:16:55,853-Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 13:16:55,927-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:16:56,064-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 13:16:56,065-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 13:16:56,065-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 13:16:56,102-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 13:16:56,102-Root WebApplicationContext: initialization completed in 554 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 13:16:56,187-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 13:16:56,190-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 13:16:56,201-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:56,202-HikariPool-6 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 13:16:56,218-HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b6f67f9-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:16:56,218-HikariPool-6 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 13:16:56,300-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:16:56,321-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 13:16:56,436-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 13:16:56,559-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 13:16:56,598-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 13:16:57,435-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46cc7196, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4982a7b5, org.springframework.security.web.context.SecurityContextHolderFilter@3e3112f8, org.springframework.security.web.header.HeaderWriterFilter@61fb38f3, org.springframework.web.filter.CorsFilter@73ca9d3a, org.springframework.security.web.authentication.logout.LogoutFilter@7e4f0aa, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@668dac4d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6023a893, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9f00fc3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78aea8ca, org.springframework.security.web.access.ExceptionTranslationFilter@4cf4b9c5, org.springframework.security.web.access.intercept.AuthorizationFilter@7379317e]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:16:57,808-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:16:58,011-Started DemoApplication in 2.815 seconds (process running for 666.659)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-07-03 13:16:58,013-Condition evaluation unchanged-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-07-03 13:17:00,047-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:17:00,074-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:17:00,075-HikariPool-6 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:17:00,080-HikariPool-6 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:17:00,368-Starting DemoApplication using Java 17.0.11 with PID 11588 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:17:00,368-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:17:00,691-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 13:17:00,706-Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 13:17:00,793-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:17:00,941-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 13:17:00,944-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 13:17:00,945-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 13:17:00,980-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 13:17:00,980-Root WebApplicationContext: initialization completed in 609 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 13:17:01,059-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 13:17:01,063-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 13:17:01,073-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:17:01,074-HikariPool-7 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 13:17:01,089-HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2840302e-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:17:01,089-HikariPool-7 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 13:17:01,191-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:17:01,220-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 13:17:01,343-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 13:17:01,480-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 13:17:01,515-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 13:17:02,240-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4308d3e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13d99677, org.springframework.security.web.context.SecurityContextHolderFilter@5f536684, org.springframework.security.web.header.HeaderWriterFilter@66e3813c, org.springframework.web.filter.CorsFilter@14473df3, org.springframework.security.web.authentication.logout.LogoutFilter@5f71e265, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@54823f01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@222aff2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@614257b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51f8624d, org.springframework.security.web.access.ExceptionTranslationFilter@4e91b744, org.springframework.security.web.access.intercept.AuthorizationFilter@595bc84f]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 13:17:02,611-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 13:17:02,808-Started DemoApplication in 2.665 seconds (process running for 671.456)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-07-03 13:17:02,810-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 13:18:46,539-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 13:18:46,539-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 13:18:46,540-Completed initialization in 1 ms-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-03 13:18:46,677-Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: class org.springframework.security.core.authority.SimpleGrantedAuthority cannot be cast to class java.util.Collection (org.springframework.security.core.authority.SimpleGrantedAuthority is in unnamed module of loader 'app'; java.util.Collection is in module java.base of loader 'bootstrap')]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-03 13:18:54,601-Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: class org.springframework.security.core.authority.SimpleGrantedAuthority cannot be cast to class java.util.Collection (org.springframework.security.core.authority.SimpleGrantedAuthority is in unnamed module of loader 'app'; java.util.Collection is in module java.base of loader 'bootstrap')]-
+org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-[INFO]- 2024-07-03 13:23:15,506-Application shutdown requested.-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 13:23:15,529-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:23:15,530-HikariPool-7 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 13:23:15,536-HikariPool-7 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:16:54,576-Starting DemoApplication using Java 17.0.11 with PID 14216 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:16:54,582-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-03 14:16:54,678-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-03 14:16:54,679-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 14:16:56,093-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 14:16:56,180-Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 14:16:56,503-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 14:16:57,334-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 14:16:57,353-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 14:16:57,354-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 14:16:57,466-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 14:16:57,466-Root WebApplicationContext: initialization completed in 2786 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 14:16:57,729-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-07-03 14:16:57,833-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 14:16:57,897-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 14:16:58,352-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:16:58,400-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 14:16:58,796-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38eb3be2-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:16:58,800-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 14:17:00,496-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 14:17:00,724-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 14:17:01,202-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 14:17:01,506-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 14:17:01,611-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 14:17:03,215-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32caf3c5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e150b1a, org.springframework.security.web.context.SecurityContextHolderFilter@39f3f850, org.springframework.security.web.header.HeaderWriterFilter@76b5dbd, org.springframework.web.filter.CorsFilter@246675a3, org.springframework.security.web.authentication.logout.LogoutFilter@1a43afd2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@d38257b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35ce5102, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@512f7d66, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55cf9ba6, org.springframework.security.web.access.ExceptionTranslationFilter@2d6944c9, org.springframework.security.web.access.intercept.AuthorizationFilter@dc2380]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 14:17:03,947-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:17:04,179-Started DemoApplication in 10.464 seconds (process running for 12.118)-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 14:19:20,205-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 14:19:20,206-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 14:19:20,210-Completed initialization in 4 ms-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-03 14:21:12,320-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-07-03 14:21:19,354-Resolved [org.springframework.security.authentication.InternalAuthenticationServiceException: class org.springframework.security.core.authority.SimpleGrantedAuthority cannot be cast to class java.util.Collection (org.springframework.security.core.authority.SimpleGrantedAuthority is in unnamed module of loader 'app'; java.util.Collection is in module java.base of loader 'bootstrap')]-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-07-03 14:37:44,316-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 14:37:44,352-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:37:44,359-HikariPool-1 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:37:44,373-HikariPool-1 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:37:44,775-Starting DemoApplication using Java 17.0.11 with PID 14216 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:37:44,776-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 14:37:45,174-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 14:37:45,193-Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 14:37:45,306-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 14:37:45,466-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 14:37:45,467-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 14:37:45,468-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 14:37:45,508-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 14:37:45,508-Root WebApplicationContext: initialization completed in 729 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 14:37:45,605-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 14:37:45,611-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 14:37:45,632-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:37:45,633-HikariPool-2 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 14:37:45,654-HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bf46cd9-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:37:45,654-HikariPool-2 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 14:37:45,820-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 14:37:45,853-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 14:37:46,010-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 14:37:46,171-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 14:37:46,218-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 14:37:47,152-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@55f4e93f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b9796dd, org.springframework.security.web.context.SecurityContextHolderFilter@229b25fb, org.springframework.security.web.header.HeaderWriterFilter@3dbd782b, org.springframework.web.filter.CorsFilter@3e9ef1fb, org.springframework.security.web.authentication.logout.LogoutFilter@65f4a7fd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@157f7f22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2eed2fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4811a825, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50761f65, org.springframework.security.web.access.ExceptionTranslationFilter@32cf0f5a, org.springframework.security.web.access.intercept.AuthorizationFilter@546c2a0e]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 14:37:47,610-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:37:47,842-Started DemoApplication in 3.364 seconds (process running for 1255.782)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-07-03 14:37:47,846-Condition evaluation unchanged-
+org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin-[INFO]- 2024-07-03 14:37:56,691-Application shutdown requested.-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 14:37:56,718-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:37:56,719-HikariPool-2 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:37:56,730-HikariPool-2 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:38:00,903-Starting DemoApplication using Java 17.0.11 with PID 11352 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:38:00,910-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-03 14:38:01,034-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-07-03 14:38:01,035-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 14:38:02,514-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 14:38:02,601-Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 14:38:02,907-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 14:38:03,648-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 14:38:03,666-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 14:38:03,667-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 14:38:03,771-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 14:38:03,771-Root WebApplicationContext: initialization completed in 2734 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 14:38:04,048-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-07-03 14:38:04,146-HHH000412: Hibernate ORM core version 6.5.2.Final-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 14:38:04,208-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 14:38:04,652-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:38:04,701-HikariPool-1 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 14:38:05,081-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ef9dbeb-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:38:05,084-HikariPool-1 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 14:38:06,647-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 14:38:06,741-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 14:38:07,272-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 14:38:07,581-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 14:38:07,661-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 14:38:09,109-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@248d6edf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ea709b4, org.springframework.security.web.context.SecurityContextHolderFilter@2462ee61, org.springframework.security.web.header.HeaderWriterFilter@157fd1ca, org.springframework.web.filter.CorsFilter@4cd2abf1, org.springframework.security.web.authentication.logout.LogoutFilter@af89f97, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7f48bb09, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5656ba4b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@641f882f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7abd7ef0, org.springframework.security.web.access.ExceptionTranslationFilter@77c2dbcd, org.springframework.security.web.access.intercept.AuthorizationFilter@507e73ea]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 14:38:09,876-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:38:10,099-Started DemoApplication in 10.063 seconds (process running for 11.272)-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 14:38:42,616-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 14:38:42,616-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-07-03 14:38:42,621-Completed initialization in 5 ms-
+org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-[INFO]- 2024-07-03 14:46:53,094-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 14:46:53,126-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:46:53,131-HikariPool-1 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:46:53,141-HikariPool-1 - Shutdown completed.-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:46:53,539-Starting DemoApplication using Java 17.0.11 with PID 11352 (C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service\target\classes started by DELL in C:\Users\DELL\WorkSpace\Mini_Capston\doctor-service)-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:46:53,540-No active profile set, falling back to 1 default profile: "default"-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 14:46:53,901-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-07-03 14:46:53,916-Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.-
+org.springframework.cloud.context.scope.GenericScope-[INFO]- 2024-07-03 14:46:54,002-BeanFactory id=5938e103-6809-3778-8426-cdca1b2655f3-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 14:46:54,133-Tomcat initialized with port 9192 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-07-03 14:46:54,134-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-07-03 14:46:54,135-Starting Servlet engine: [Apache Tomcat/10.1.24]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-07-03 14:46:54,169-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-07-03 14:46:54,169-Root WebApplicationContext: initialization completed in 626 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-07-03 14:46:54,254-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.cache.internal.RegionFactoryInitiator-[INFO]- 2024-07-03 14:46:54,260-HHH000026: Second-level cache disabled-
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo-[INFO]- 2024-07-03 14:46:54,277-No LoadTimeWeaver setup: ignoring JPA class transformer-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:46:54,278-HikariPool-2 - Starting...-
+com.zaxxer.hikari.pool.HikariPool-[INFO]- 2024-07-03 14:46:54,298-HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74d575de-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-07-03 14:46:54,299-HikariPool-2 - Start completed.-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-07-03 14:46:54,406-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-07-03 14:46:54,431-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-[INFO]- 2024-07-03 14:46:54,544-Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-07-03 14:46:54,666-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[INFO]- 2024-07-03 14:46:54,704-LiveReload server is running on port 35729-
+org.springframework.security.web.DefaultSecurityFilterChain-[INFO]- 2024-07-03 14:46:55,554-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7122d0d7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15490307, org.springframework.security.web.context.SecurityContextHolderFilter@434e2b08, org.springframework.security.web.header.HeaderWriterFilter@2af5edaf, org.springframework.web.filter.CorsFilter@59902b6, org.springframework.security.web.authentication.logout.LogoutFilter@50afe8cc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5e64ba5f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fa79e39, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67968836, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e54f618, org.springframework.security.web.access.ExceptionTranslationFilter@6b6a7c7f, org.springframework.security.web.access.intercept.AuthorizationFilter@601e1bdb]-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-07-03 14:46:55,966-Tomcat started on port 9192 (http) with context path '/'-
+com.example.demo.DemoApplication-[INFO]- 2024-07-03 14:46:56,171-Started DemoApplication in 2.942 seconds (process running for 537.344)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-07-03 14:46:56,175-Condition evaluation unchanged-

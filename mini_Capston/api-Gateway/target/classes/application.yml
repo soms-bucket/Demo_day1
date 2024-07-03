@@ -1,0 +1,13 @@
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: productservice
+        uri: http://localhost:9192/
+        predicates:
+        - Path=/docapi/user**
+      - id: orderservice
+        uri: http://localhost:9193/
+        predicates:
+        - Path=/patapi/**

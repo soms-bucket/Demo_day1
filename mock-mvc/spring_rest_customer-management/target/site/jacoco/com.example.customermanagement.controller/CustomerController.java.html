@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CustomerController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">customer-management</a> &gt; <a href="index.source.html" class="el_package">com.example.customermanagement.controller</a> &gt; <span class="el_source">CustomerController.java</span></div><h1>CustomerController.java</h1><pre class="source lang-java linenums">package com.example.customermanagement.controller;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.customermanagement.entity.Customer;
+import com.example.customermanagement.exception.ResourceNotFoundException;
+import com.example.customermanagement.service.ICustomerService;
+
+import jakarta.validation.Valid;
+
+@RestController // http://localhost:9192/api
+@RequestMapping(&quot;/api&quot;)
+<span class="fc" id="L28">public class CustomerController {</span>
+
+	@Autowired
+	ICustomerService customerService;
+
+	
+	@GetMapping(&quot;/hello&quot;)
+	String hello() {
+<span class="nc" id="L36">		return &quot;Hello World, Spring Boot.... Welcome to You!&quot;;</span>
+	}
+	
+	// http://localhost:9192/api/customers
+	@GetMapping(&quot;/customers&quot;)
+	List&lt;Customer&gt; customers() {
+		// System.out.println(&quot;Running&quot;);
+<span class="fc" id="L43">		return customerService.getCustomersFromDatabase();</span>
+
+	}
+
+	// http://localhost:9192/api/customers/1
+	@GetMapping(&quot;/customers/{id}&quot;)
+	Optional&lt;Customer&gt; findCustomerById(@PathVariable int id) throws ResourceNotFoundException {
+<span class="fc" id="L50">		Optional&lt;Customer&gt; product = customerService.getCustomerById(id);</span>
+<span class="pc" id="L51">		product.orElseThrow(() -&gt; new ResourceNotFoundException(&quot;Product not found for this id :: &quot; + id));</span>
+<span class="fc" id="L52">		return product;</span>
+	}
+
+	// http://localhost:9192/api/customers/1
+	@DeleteMapping(&quot;/customers/{id}&quot;)
+	Object deleteCustomerById(@PathVariable int id) {
+<span class="fc" id="L58">		customerService.deleteCustomerById(id);</span>
+<span class="fc" id="L59">		return new ResponseEntity&lt;Void&gt;(HttpStatus.NO_CONTENT);</span>
+	}
+
+	// http://localhost:9192/api/customers
+	@PostMapping(&quot;/customers&quot;)
+	public Customer createCustomer(@Valid @RequestBody Customer newCustomer) {
+<span class="fc" id="L65">		return customerService.createCustomer(newCustomer);</span>
+	}
+
+	// http://localhost:9192/api/customers/1
+	@PutMapping(&quot;/customers/{id}&quot;)
+	public ResponseEntity&lt;Customer&gt; updateCustomer
+	(@PathVariable(value = &quot;id&quot;) Integer customerId,@Valid @RequestBody Customer newCustomer) {
+<span class="fc" id="L72">		System.out.println(&quot; con: &quot;+newCustomer);</span>
+<span class="fc" id="L73">		return customerService.updateCustomer(customerId,newCustomer);</span>
+	}
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

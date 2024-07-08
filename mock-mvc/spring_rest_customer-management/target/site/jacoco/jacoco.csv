@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+customer-management,com.example.customermanagement,DemoApplication,5,3,0,0,2,1,1,1,1,1
+customer-management,com.example.customermanagement.entity,Customer,15,50,0,0,6,18,1,12,1,12
+customer-management,com.example.customermanagement.exception,ResourceNotFoundException,0,4,0,0,0,2,0,1,0,1
+customer-management,com.example.customermanagement.exception,GlobalExceptionHandler,36,3,0,0,4,1,2,1,2,1
+customer-management,com.example.customermanagement.exception,ErrorDetails,21,0,0,0,8,0,4,0,4,0
+customer-management,com.example.customermanagement.controller,CustomerController,8,43,0,0,1,10,2,6,2,6
+customer-management,com.example.customermanagement.service,CustomerService,11,84,0,0,2,17,0,8,0,8

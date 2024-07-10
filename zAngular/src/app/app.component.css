@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container-space {
+    background-color: rgb(171, 197, 236);
+    justify-content: space-between;
+}
+
+.flex-app {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease-out;
+}

@@ -1,0 +1,70 @@
+
+
+<div class="container-fluid"></div>
+<div class="container container-space">
+  <strong class="flex-app" style="font-size: 30px;"> Noob Food </strong>
+  <nav class="flex-app">
+      <a href="#"><i class="fa-solid fa-house-user"></i> Home</a>
+      <a href="#"><i class="fa-solid fa-list-alt"></i> Products</a>
+      <a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+      <a href="#"><i class="fa-solid fa-phone"></i> Contact</a>
+  </nav>
+</div>
+
+
+
+<div>
+  <h3> Two way Binding </h3>
+  Name: <input [(ngModel)]='title' /><br>
+  You entered : {{title}} <br>
+</div>
+
+<h3>Directive</h3>
+<div [ngStyle] = "{'background-color':'grey'}">
+working fine
+</div>
+
+<h4>ngstyle using function</h4>
+<button [ngStyle] = "addBtnStyle()"></button>
+
+<div>
+  <h3>Using ngFor</h3>
+  <ul>
+    <li *ngFor="let d of data">
+      {{d.name}} {{d.age}} {{d.dept}}
+
+    </li>
+  </ul>
+
+  <table class="table table-striped-columns">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Deperment</th>
+    </tr>
+    <tr  *ngFor="let d of data">
+      <td> {{d.name}}</td>
+      <td>{{ d.age}}</td>
+      <td>{{d.dept}}</td>
+
+    </tr>
+
+  </table>
+
+</div>
+
+
+<div>
+  <h3>Using ngFor with style</h3>
+
+  <ul *ngFor="let d of data">
+    <li [ngStyle] = "{'font-size':'20px'}" 
+            [style.color] = "getColor(d.dept)">
+
+      {{d.name}} {{d.age}} {{d.dept}}
+
+    </li>
+  </ul>
+
+
+</div>

@@ -1,0 +1,23 @@
+/* body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f3f3f3;
+}
+nav{
+    font-size:15px;
+    background-color: rgb(174, 214, 233);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display:flex;
+    justify-content: space-around;
+} */
+a{
+    text-decoration:none;
+    color:black;
+    padding:8px;
+}
+a:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease-out;
+}

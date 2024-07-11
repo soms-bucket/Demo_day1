@@ -1,0 +1,38 @@
+<!-- <nav>
+    <a href="#"><i class="bi bi-house"></i> Home</a>
+    <a href="#"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+    <a href="#"><i class="bi bi-card-list"></i> Product</a>
+  </nav> -->
+
+
+<!--The content below is only a placeholder and can be replaced.-->
+<!--     NAVBAR     -->
+<div>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+    <a class="navbar-brand" href="#">Johnson Controller</a>
+    <!--  <a class="navbar-brand" href="http://revature.com">-->
+    <a><img src="assets/home.png" style="position:relative;left:150;top:0; height:50px" alt="Revaturelogo"></a>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- collapse will be not allow overlapping-->
+      <ul class="navbar-nav mr-auto"> </ul>
+      <ul class="nav nav-tabs">
+        <li routerLinkActive="active">
+          <a routerLink="Login" style="padding-left:50px; padding-right:50px">
+            <i class="bi bi-box-arrow-in-right"></i> LoginNow</a>
+        </li>
+        <li routerLinkActive="active">
+          <a routerLink="Home" style="padding-left:50px; padding-right:50px">
+            <i class="bi bi-house"></i> GoHome</a>
+        </li>
+        <li routerLinkActive="active">
+          <a routerLink="Products" style="padding-left:50px; padding-right:50px">
+            <i class="bi bi-card-list"></i> Product List </a>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="btn btn-danger ml-4">Log Out</button>
+
+  </nav>
+</div>
+<router-outlet></router-outlet>

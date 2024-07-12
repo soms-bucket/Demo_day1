@@ -1,0 +1,13 @@
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: doctor-service
+        uri: http://localhost:9192/
+        predicates:
+        - Path=/docapi/user/**
+      - id: patient-service
+        uri: http://localhost:9193/
+        predicates:
+        - Path=/patapi/**
